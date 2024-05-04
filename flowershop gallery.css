@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower shop</title>
+    <style>
+        body {
+            background-image: url("https://e0.pxfuel.com/wallpapers/759/599/desktop-wallpaper-beige-sparkle-dried-flower-background-ning-in-2021-pink-pink-laptop-aesthetic-brown-flower.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery figure {
+            margin: 10px;
+            text-align: center;
+        }
+
+        .gallery img {
+            height: 250px;
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery figcaption {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .menu {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .menu li {
+            margin: 0 10px;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
+
+        .menu li a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tekade Flower Shop</h1>
+    <h2>Available Flower Stock</h2>
+    <h3>Have a look at our beautiful Collection</h3>
+    <div class="gallery">
+        <!-- Your figure elements with images and captions go here -->
+    </div>
+    <ul class="menu">
+        <li><a href="http://127.0.0.1:5500/flower%20shop/flowershop%20order%20page.html">Place Order</a></li>
+        <li><a href="http://127.0.0.1:5500/flower%20shop/flowershop%20feedbackpage.html">Feedback</a></li>
+        <li><a href="http://127.0.0.1:5500/flower%20shop/flower%20shop%20homepage.html">Back to Home</a></li>
+    </ul>
+</body>
+</html>
+
